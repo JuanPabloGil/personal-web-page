@@ -13,25 +13,123 @@
 </head>
 
 <body>
+  <div id="main">
 
-  <header class="home-section col-lg-12">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center">
-        <div class="col-12 text-center">
-          <img src="img/avatar.jpg" class="rounded-circle avatar-img" alt="Profile-Photo">
-          <h1 class="name-header display-3">J. Pablo <span class="text-last-name">Gil</span></h1>
-          <div class="social">
-            <a href="https://twitter.com/JuanPabloMG4" target="_blank"> <i class="fab fa-twitter fa-2x m-3 twitter"> </i></a>
-            <a href="https://github.com/JuanPabloGil" target="_blank"><i class="fab fa-github fa-2x m-3 github"></i></a>
-            <a href="https://www.linkedin.com/in/juan-pablo-gil-1321a515a/" target="_blank"> <i class="fab fa-linkedin-in fa-2x m-3 linkedin"></i></a>
-            <a href="#"> <i class="fab fa-whatsapp fa-2x m-3 whatsapp"></i></a>
+
+    <button id="opn-btn" class="openbtn" onclick="openNav()">☰ Menu</button>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <a href="#Home">Home</a>
+      <a href="#About">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+
+    <header id ="Home" class="home-section col-lg-12">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-center">
+            <img src="img/avatar.jpg" class="rounded-circle avatar-img" alt="Profile-Photo">
+            <h1 class="name-header display-3">J. Pablo <span class="text-last-name">Gil</span></h1>
+            <h3 class="name-header">I'm a UI/UX Designer</h3>
+            <div class="social">
+              <a class="twitter" href="https://twitter.com/JuanPabloMG4" target="_blank"> <i class="fab fa-twitter fa-2x m-3 "> </i></a>
+              <a class="github" href="https://github.com/JuanPabloGil" target="_blank"><i class="fab fa-github fa-2x m-3"></i></a>
+              <a class="linkedin" href="https://www.linkedin.com/in/juan-pablo-gil-1321a515a/" target="_blank"> <i class="fab fa-linkedin-in fa-2x m-3 "></i></a>
+              <a class="whatsapp" href="#"> <i class="fab fa-whatsapp fa-2x m-3 whatsapp"></i></a>
+            </div>
           </div>
+        </div>
+      </div>
+    </header>
+
+    <div id ="About" class="container mt-5 mb-5 about-me">
+      <div class="section-title mt-5 mb-5">
+        <h1 class="display-4 pl-3">ABOUT ME</h1>
+        <p class="pl-3">All information about</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded" src="http://frenify.com/envato/marketify/html/arlo/1/img/about/1.jpg" width="300px" alt="">
+        </div>
+        <div class="col-lg-8">
+
+          <h3><strong>I'm J. Pablo Gil and FullStack Developer</strong></h3>
+          <p>Hello! My name is J. Pablo Gil. I am a Web Developer, and I'm very passionate and dedicated to my work. With 3 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
+          <div class="row">
+
+            <div class="col-sm-12 col-xl-6">
+              <ul>
+                <li>
+                  <span>
+                    <label><strong>Birthday:</strong></label>
+                    10.Feb.1997
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <label><strong>City:</strong></label>
+                    San Luis Potosi, Mexico
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <label><strong>Web Site:</strong></label>
+                    www.JpabloGil.me
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+
+            <div class="col-sm-12 col-xl-6">
+              <ul>
+                <li>
+                  <span>
+                    <label><strong>Age:</strong></label>
+                    22
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <label><strong>Interests:</strong></label>
+                    Soccer
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    <label><strong>Mail:</strong></label>
+                    jpablomgil@gmail.com
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div class="mt-4">              
+              <a href="#cv"> <button class="btn-orange mr-4" type="button" name="button">Download CV</button></a>
+              <a href="#Contact"> <button class="btn-orange mr-4" type="button" name="button">Contact </button></a>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
 
-  </header>
 
+  </div>
+  <script>
+  function openNav() {
+    document.getElementById("mySidebar").style.width = "280px";
+    document.getElementById("main").style.marginLeft = "280px";
+    document.getElementById("opn-btn").style.display= "none";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.getElementById("opn-btn").style.display= "block";
+  }
+</script>
 </body>
 
 </html>
