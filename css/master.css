@@ -1,0 +1,41 @@
+.text-last-name {
+  color: rgb(255,165,0) ;
+}
+
+.home-section {
+  background-image: url(../img/background.jpg) ;
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+}
+
+.name-header {
+  color: white;
+}
+
+.avatar-img {
+  border: 5px solid rgba(255,165,0,0.7);
+}
+
+.social a {
+  color:white
+}
+
+.whatsapp:hover{
+  color: #25d366;
+}
+
+.linkedin:hover{
+  color: #0e76a8;
+}
+
+.twitter:hover{
+  color: #00acee;
+}
+
+.github:hover{
+  color: black;
+}
