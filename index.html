@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="js/bootstrap.bundle.min.js">
   <link rel="stylesheet" href="js/bootstrap.min.js">
   <script src="https://kit.fontawesome.com/0ec8d295ec.js" crossorigin="anonymous"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,7 +16,6 @@
 
 <body>
   <div id="main">
-
 
     <button id="opn-btn" class="openbtn" onclick="openNav()">☰ Menu</button>
     <div id="mySidebar" class="sidebar">
@@ -45,7 +45,7 @@
       </div>
     </header>
 
-    <div id ="About" class="container mt-5 mb-5 pb-5- pt-5 about-me">
+    <div id ="About" class="container mt-5 mb-5 pb-5 pt-5 about-me">
       <div class="section-title mt-5 mb-5">
         <h1 class="display-4 pl-3">ABOUT ME</h1>
         <p class="pl-3">All information about</p>
@@ -141,9 +141,9 @@
       </div>
     </div>
 
-    <div class="container  mt-5 mb-5 pb-5- pt-5">
+    <div class="container  mt-5 mb-5 pb-5 pt-5">
       <div class="section-title mt-5 mb-5">
-        <h1 class="display-4 pl-3">AMAZING SERVICES</h1>
+        <h1 class="display-5 pl-3">AMAZING SERVICES</h1>
         <p class="pl-3">Meet our amazing services</p>
       </div>
 
@@ -168,23 +168,132 @@
           </div>
         </div>
       </div>
-      <!--https://codepen.io/pramodkumarboda/pen/XdgxmQ filter gallery--->
-
     </div>
-  </div>
-  <script>
-  function openNav() {
-    document.getElementById("mySidebar").style.width = "280px";
-    document.getElementById("main").style.marginLeft = "280px";
-    document.getElementById("opn-btn").style.display= "none";
-  }
+    <!--https://codepen.io/pramodkumarboda/pen/XdgxmQ filter gallery--->
+<hr>
+    <div class="container mt-5 mb-5">
+      <div class="row m-0">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12 m-0">
+          <div class="mt-5 mb-5">
+            <h1 class="display-4 pl-3 center">PortFolio</h1>
+            <p class="pl-3 center">My recent projects </p>
 
-  function closeNav() {
-    document.getElementById("mySidebar").style.width = "0";
-    document.getElementById("main").style.marginLeft= "0";
-    document.getElementById("opn-btn").style.display= "block";
-  }
+          </div>
+        </div>
+
+        <div align="center">
+          <button class="btn btn-default filter-button" data-filter="all"><strong>All</strong></button>
+          <button class="btn btn-default filter-button" data-filter="html"><strong>HTML / CSS</strong></button>
+          <button class="btn btn-default filter-button" data-filter="rails"> <strong>Rails / Ruby</strong></button>
+          <button class="btn btn-default filter-button" data-filter="react"> <strong>React / JS</strong></button>
+          <button class="btn btn-default filter-button" data-filter="wp"> <strong>WordPress</strong></button>
+        </div>
+        <br/>
+
+
+        <div class="row">
+
+          <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter html m-0 mb-2">
+            <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+          </div>
+
+          <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter html m-0 mb-2">
+            <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+          </div>
+
+          <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter html m-0 mb-2">
+            <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+          </div>
+
+          <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter html m-0 mb-2">
+            <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+          </div>
+
+          <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter rails m-0 mb-2">
+            <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+          </div>
+
+          <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter rails m-0 mb-2">
+            <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+          </div>
+
+          <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter rails m-0 mb-2">
+            <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+          </div>
+
+          <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter react m-0 mb-2">
+            <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+          </div>
+
+          <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter react m-0 mb-2">
+            <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+          </div>
+
+          <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter react m-0 mb-2">
+            <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+          </div>
+
+          <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter wp m-0 mb-2">
+            <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+          </div>
+
+          <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter wp m-0 mb-2">
+            <img src="http://fakeimg.pl/365x365/" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--End of gallery --->
+
+  </div>
+
+
+  <script>
+  $(document).ready(function(){
+
+    $(".filter-button").click(function(){
+      var value = $(this).attr('data-filter');
+
+      if(value == "all")
+      {
+        $('.filter').removeClass('hidden');
+        $('.filter').show('1000');
+      }
+      else
+      {
+        $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+        $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+        $(".filter").not('.'+value).hide('3000');
+        $('.filter').filter('.'+value).show('3000');
+
+      }
+    });
+
+    if ($(".filter-button").removeClass("active")) {
+      $(this).removeClass("active");
+    }
+    $(this).addClass("active");
+
+  });
 </script>
+<script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "280px";
+  document.getElementById("main").style.marginLeft = "280px";
+  document.getElementById("opn-btn").style.display= "none";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.getElementById("opn-btn").style.display= "block";
+}
+</script>
+
+
+
+
 </body>
 
 </html>
