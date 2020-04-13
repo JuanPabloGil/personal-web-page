@@ -1,10 +1,10 @@
 #aboute a {
-  color: #e3872d;
+  color: #fe8c00;
   transition: 0.3s;
 }
 
 .text-last-name {
-  color:#e3872d;
+  color:#fe8c00;
 }
 .sidebar {
   height: 100%;
@@ -29,7 +29,7 @@
 }
 
 .sidebar a:hover {
-  color: #e3872d;
+  color: #fe8c00;
   text-decoration: none;
 }
 
@@ -121,8 +121,8 @@
 
 .btn-orange {
   text-decoration: none;
-  color: #fff;
-  background-color: #e3872d;
+  color: white;
+  background-color: #fe8c00;
   padding: 12px 35px;
   border-radius: 3px;
   display: inline-block;
@@ -167,7 +167,7 @@
   text-align: center;
   color: #ffffff;
   margin-bottom: 30px;
-  background-color: #e3872d;
+  background-color: #fe8c00;
 
 }
 .filter-button:hover {
