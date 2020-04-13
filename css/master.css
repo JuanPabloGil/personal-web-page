@@ -1,3 +1,8 @@
+#aboute a {
+  color: #e3872d;
+  transition: 0.3s;
+}
+
 .text-last-name {
   color:#e3872d;
 }
@@ -21,7 +26,6 @@
   color: #818181;
   display: block;
   transition: 0.3s;
-
 }
 
 .sidebar a:hover {
@@ -144,9 +148,6 @@
 }
 
 
-
-
-
 .center {
   text-align:center;
 }
@@ -159,8 +160,7 @@
   height: 45px;
   border-bottom: 1px solid #e3872d;
 }
-.filter-button
-{
+.filter-button {
   font-size: 18px;
   border: 1px solid #e3872d;
   border-radius: 5px;
@@ -170,8 +170,7 @@
   background-color: #e3872d;
 
 }
-.filter-button:hover
-{
+.filter-button:hover {
   font-size: 18px;
   border: 1px solid #f7f7f7;
   border-radius: 5px;
@@ -180,13 +179,11 @@
   background-color: #f7f7f7;
 
 }
-.btn-default:active .filter-button:active
-{
+.btn-default:active .filter-button:active {
   background-color: #42B32F;
   color: white;
 }
 
-.gallery_product
-{
+.gallery_product {
   margin-bottom: 30px;
 }
