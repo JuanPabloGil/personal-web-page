@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <!--http://frenify.com/envato/marketify/html/arlo/1/index-4.html---->
+
 <head>
   <link rel="stylesheet" href="css/master.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -19,311 +20,152 @@
   <div id="main">
 
     <button id="opn-btn" class="openbtn" onclick="openNav()">☰ Menu</button>
-    <div id="mySidebar" class="sidebar">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-      <a class="nav-link" href="#Home">Home</a>
-      <a href="#About">About</a>
-      <!--
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
-    -->
-  </div>
 
-  <header id ="Home" class="home-section col-lg-12">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center">
-        <div class="col-12 text-center">
-          <img src="img/avatar.jpg" class="rounded-circle avatar-img" alt="Profile-Photo">
-          <h1 class="name-header display-3">J. Pablo <span class="text-last-name">Gil</span></h1>
-          <h3 class="name-header"> I'm a <span id="typed"></span></h3>
-          <div class="social">
-            <a class="twitter" href="https://twitter.com/JuanPabloMG4" target="_blank"> <i class="fab fa-twitter fa-2x m-3 "> </i></a>
-            <a class="github" href="https://github.com/JuanPabloGil" target="_blank"><i class="fab fa-github fa-2x m-3"></i></a>
-            <a class="linkedin" href="https://www.linkedin.com/in/juan-pablo-gil-1321a515a/" target="_blank"> <i class="fab fa-linkedin-in fa-2x m-3 "></i></a>
-            <a class="whatsapp" href="#"> <i class="fab fa-whatsapp fa-2x m-3 whatsapp"></i></a>
+    <nav class="Navigation">
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> x </a>
+        <div class="links-on-side">
+          <a class="nav-link" href="#Home">Home</a>
+          <a class="nav-link" href="#Portfolio">Portfolio</a>
+        </div>
+        <hr>
+        <div class="social">
+          <a class="twitter" href="https://twitter.com/JuanPabloMG4" target="_blank"> <i
+              class="fab fa-twitter fa-1x m-3 "> </i></a>
+          <a class="github" href="https://github.com/JuanPabloGil" target="_blank"><i
+              class="fab fa-github fa-1x m-3"></i></a>
+          <a class="linkedin" href="https://www.linkedin.com/in/juan-pablo-gil-1321a515a/" target="_blank"> <i
+              class="fab fa-linkedin-in fa-1x m-3 "></i></a>
+          <a class="linkedin" href="" target="_blank">
+            <i class="fab fa-angellist fa-1x m-3" aria-hidden="true"></i>
+          </a>
+          <a class="linkedin" href="mailto:jpablomgil@gmail.com" target="_blank">
+            <i class="fa fa-envelope fa-1x m-3" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+
+
+    <div id="Home" class="home-section col-lg-12">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-center">
+            <img src="img/avatar.jpg" class="rounded-circle avatar-img" alt="Profile-Photo">
+            <h1 class="name-header display-3">J. Pablo <span class="text-last-name">Gil</span></h1>
+            <h3 class="name-header"> I'm a <span id="typed"></span></h3>
+            <div class="social">
+              <a class="twitter" href="https://twitter.com/JuanPabloMG4" target="_blank"> <i
+                  class="fab fa-twitter fa-2x m-3 "> </i>
+                </a>
+              <a class="github" href="https://github.com/JuanPabloGil" target="_blank"><i
+                  class="fab fa-github fa-2x m-3"></i>
+                </a>
+              <a class="linkedin" href="https://www.linkedin.com/in/juan-pablo-gil-1321a515a/" target="_blank"> <i
+                  class="fab fa-linkedin-in fa-2x m-3 "></i>
+              </a>
+              <a class="angel" href="https://angel.co/u/juan-pablo-gil" target="_blank">
+                <i class="fab fa-angellist fa-2x m-2" aria-hidden="true"></i>
+              </a>
+              <a class="gmail" href="mailto:jpablomgil@gmail.com" target="_blank">
+                <i class="fa fa-envelope fa-2x m-2" aria-hidden="true"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </header>
 
-
-
-
-  <div id ="About" class="container mt-5 mb-5 pb-5 pt-5 about-me">
-    <div class="section-title mt-5 mb-5">
-      <h1 class="display-4 pl-3">ABOUT ME</h1>
-      <p class="pl-3">All information about</p>
-    </div>
-
-    <div class="row">
-      <!-- <div class="col-lg-4 col-md-6">
-      <img class="rounded d-none d-xl-block d-lg-block"  src="http://frenify.com/envato/marketify/html/arlo/1/img/about/1.jpg" width="300px" alt="">
-    </div> -->
-    <div class="col-lg-12 col-md-12">
-
-      <h3><strong>I'm J. Pablo Gil and FullStack Developer</strong></h3>
-      <p>Hello! My name is J. Pablo Gil. I am a Full stack Web Developer, and I'm very <strong class="poi"> passionate and dedicated </strong>to my work. With 3 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I <strong class="poi">enjoy every step of the design</strong> process, from <strong class="poi">discussion and collaboration</strong> to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do.</p>
-      <div class="row">
-
-        <div class="col-sm-12 col-xl-6">
-          <ul>
-            <li>
-              <span>
-                <label class="mr-1"><strong>Birthday:</strong></label>
-                10.Feb.1997
-              </span>
-            </li>
-            <li>
-              <span>
-                <label class="mr-1"><strong>City:</strong></label>
-                San Luis Potosi, Mexico
-              </span>
-            </li>
-            <li>
-              <span>
-                <label class="mr-1"><strong>Web Site:</strong></label>
-                <a href="jpablogil.webcodelatino.com.mx">jpablogil.webcodelatino.com.mx</a>
-              </span>
-            </li>
-            <li>
-              <span>
-                <label class="mr-1"><strong>Years of experience:</strong></label>
-                 +3
-              </span>
-            </li>
-          </ul>
-        </div>
-
-
-        <div class="col-sm-12 col-xl-6">
-          <ul>
-            <li>
-              <span>
-                <label class="mr-1"><strong>Age:</strong></label>
-                23
-              </span>
-            </li>
-            <li>
-              <span>
-                <label class="mr-1"><strong>Interests:</strong></label>
-                Soccer
-              </span>
-            </li>
-            <li>
-              <span>
-                <label class="mr-1"><strong>Mail:</strong></label>
-                <a href="mailto:jpablomgil@gmail.com">jpablomgil@gmail.com</a>
-              </span>
-            </li>
-
-            <li>
-              <span>
-                <label class="mr-1"><strong>LinkedIn:</strong></label>
-                <a href="https://www.linkedin.com/in/juan-pablo-gil-1321a515a/">@JuanPabloGil</a>
-              </span>
-            </li>
-          </ul>
-        </div>
-        <div class="mt-4 text-center">
-          <a href="/assets/cv.pdf"> <button class="btn-orange mr-4 mb-2" type="button" name="button"><strong>Download CV</strong></button></a>
-          <a href="#Contact"> <button class="btn-orange mr-4" type="button" name="button"><strong>Contact</strong></button></a>
-        </div>
+    <div id=Portfolio class="portfolio p-5">
+      <div class="title-section">
+        <h2 class="text-center  display-3 title-bg">My <span class="text-last-name">Portfolio</span></h2>
+        <span class="title-bg text-center">Works</span>
       </div>
+      <div class="container-fluid">
+        <div class="row">
 
-    </div>
-  </div>
-</div>
+          <!-- <div class="col-lg-4 col-md-6 flip-card-inner">
+              <div class="project m-3" style=" background-image: url('/img/articles.png');"></div>
+              <div class="project-back">
+                hello
+              </div>
+            </div> -->
+          <!-- <div class="col-lg-4 col-md-6">
+              <div class="project m-3" style="  background-image: url('/img/meray.png');"></div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="project m-3" style="  background-image: url('/img/shike.png');"></div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="project m-3" style="  background-image: url('/img/doomont.png');"></div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="project m-3" style="  background-image: url('/img/news.png');"></div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="project m-3" style="  background-image: url('/img/game.png');"></div>
+            </div> -->
 
-<div class="container-fluid bg-light  pt-5 pb-5">
-  <div class=" container pt-5 mb-5">
-    <div class="row">
-      <div class="col-lg-6">
-        <h4>Some About my Abilities</h4>
-        <p class="pt-5">This are my favorite tools to develop a project HTML5, CSS3, Bootstrap, Java Script, Ruby, Ruby on Rails, MySQL, PostgreSQL, Heroku,  AWS, WordPress, Google Analytics, CMS Tools.</p>
-      </div>
-      <div class="col-lg-6">
-        <div class="progress mb-4">
-          <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 60%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><strong>React &nbsp /&nbsp Java Script</strong></div>
-        </div>
-        <div class="progress mb-4">
-          <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><strong> Rails &nbsp /&nbsp Ruby</strong></div>
-        </div>
-        <div class="progress mb-4">
-          <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"><strong> HTML &nbsp /&nbsp CSS </strong></div>
-        </div>
-        <div class="progress mb-4">
-          <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 100%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"> <strong>WordPress</strong></div>
+          <div class="flip-card col-lg-4 col-md-6">
+            <div class="flip-card-inner m-3">
+              <div class="flip-card-front">
+                <div class="project " style="  background-image: url('/img/articles.png');"></div>
+              </div>
+              <div class="flip-card-back p-4">
+                <h3 class=" h1 mb-5"> <a href="https://github.com/JuanPabloGil/Articles-Web-App">ARTICLES WEB APP</a></h3>
+                <p class ="h5 mb-5">| HTML | CSS | Ruby On Rails | </p>
+                <a href="https://github.com/JuanPabloGil/Articles-Web-App" target="_blank"><i
+                  class="fab fa-github fa-2x m-3"></i>
+                </a>
+                <a href="https://thawing-tor-70780.herokuapp.com/" target="_blank"><i
+                  class="fa fa-globe fa-2x m-3"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        
+
+
+
         </div>
       </div>
     </div>
-  </div>
-</div>
-
-<!-- <div class="container  mt-5 mb-5 pb-5 pt-5">
-<div class="section-title mt-5 mb-5">
-<h1 class="display-5 pl-3">AMAZING SERVICES</h1>
-<p class="pl-3">Meet our amazing services</p>
-</div>
-
-<div class="row">
-
-<div class="col-lg-4">
-<div class="services-card m-4 p-4">
-<h4>Web Design</h4>
-<p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
-</div>
-</div>
-<div class="col-lg-4">
-<div class="services-card m-4 p-4">
-<h4>Web Aplications</h4>
-<p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
-</div>
-</div>
-<div class="col-lg-4">
-<div class="services-card  m-4 p-4">
-<h4>Mobile Applications</h4>
-<p>Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...</p>
-</div>
-</div>
-</div>
-</div> -->
-<!--https://codepen.io/pramodkumarboda/pen/XdgxmQ filter gallery--->
-<hr>
-<div class="container mt-5 mb-5">
-  <div class="row m-0">
-    <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12 m-0">
-      <div class="mt-5 mb-5">
-        <h1 class="display-4 pl-3 center">PortFolio</h1>
-        <p class="pl-3 center">My recent projects </p>
-
-      </div>
-    </div>
-
-    <div align="center">
-      <button class="btn btn-default filter-button" data-filter="all"><strong>All</strong></button>
-      <button class="btn btn-default filter-button" data-filter="html"><strong>HTML / CSS</strong></button>
-      <button class="btn btn-default filter-button" data-filter="rails"> <strong>Rails / Ruby</strong></button>
-      <!-- <button class="btn btn-default filter-button" data-filter="react"> <strong>React / JS</strong></button>
-      <button class="btn btn-default filter-button" data-filter="wp"> <strong>WordPress</strong></button> -->
-    </div>
-    <br/>
+    <!--  next  -->
 
 
-    <div class="row">
-
-      <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter html m-0 mb-2">
-        <a href="https://shikestudio.com/"> <img src="/img/shike.png" class="img-fluid"> </a>
-      </div>
-
-      <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter html m-0 mb-2">
-        <a href="http://doomont.com/"> <img src="/img/doomont.png" class="img-fluid"> </a>
-      </div>
-
-      <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter html m-0 mb-2">
-        <a href="http://meray.com.mx/"> <img src="/img/meray.png" class="img-fluid"> </a>
-      </div>
-
-
-      <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter rails m-0 mb-2">
-        <a href="https://github.com/JuanPabloGil/Articles-Web-App/tree/dev"> <img src="/img/articles.png" class="img-fluid"> </a>
-      </div>
-
-      <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter rails m-0 mb-2">
-        <a href="https://github.com/JuanPabloGil/Social-Network-Web-App/tree/dev"> <img src="/img/social-app.png" class="img-fluid"> </a>
-      </div>
-      <!--
-      <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter rails m-0 mb-2">
-      <img src="http://fakeimg.pl/365x365/" class="img-fluid">
-    </div>
-
-    <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter rails m-0 mb-2">
-    <img src="http://fakeimg.pl/365x365/" class="img-fluid">
   </div>
 
-  <div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter react m-0 mb-2">
-  <img src="http://fakeimg.pl/365x365/" class="img-fluid">
-</div>
 
-<div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter react m-0 mb-2">
-<img src="http://fakeimg.pl/365x365/" class="img-fluid">
-</div>
-
-<div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter react m-0 mb-2">
-<img src="http://fakeimg.pl/365x365/" class="img-fluid">
-</div>
-
-<div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter wp m-0 mb-2">
-<img src="http://fakeimg.pl/365x365/" class="img-fluid">
-</div>
-
-<div class="gallery_product col-12 col-sm-6  col-md-6 col-lg-4 col-xs-6 filter wp m-0 mb-2">
-<img src="http://fakeimg.pl/365x365/" class="img-fluid">
-</div> -->
-</div>
-</div>
-</div>
-
-<!--End of gallery --->
-
-</div>
-
-<!--Typed.js   --->
-<script>
-var typed = new Typed('#typed',{
-  strings:["Web Developer","UI/UX Designer","FreeLancer"],
-  backSpeed: 40,
-  typeSpeed: 40,
-  loop: true,
-  shuffle: true
-});
-</script>
+  <!--Typed.js   --->
+  <script>
+    var typed = new Typed('#typed', {
+      strings: ["Web Developer", "UI/UX Designer", "FreeLancer"],
+      backSpeed: 40,
+      typeSpeed: 40,
+      loop: true,
+      shuffle: true
+    });
+  </script>
 
 
-<!--Navigation Bar --->
-<script>
-function openNav() {
-  document.getElementById("mySidebar").style.width = "280px";
-  document.getElementById("main").style.marginLeft = "280px";
-  document.getElementById("opn-btn").style.display= "none";
-}
-
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-  document.getElementById("opn-btn").style.display= "block";
-}
-</script>
-
-
-<!--Filter Portfolio --->
-<script>
-$(document).ready(function(){
-
-  $(".filter-button").click(function(){
-    var value = $(this).attr('data-filter');
-
-    if(value == "all")
-    {
-      $('.filter').removeClass('hidden');
-      $('.filter').show('1000');
+  <!--Navigation Bar --->
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "280px";
+      document.getElementById("main").style.marginLeft = "280px";
+      document.getElementById("opn-btn").style.display = "none";
     }
-    else
-    {
-      $('.filter[filter-item="'+value+'"]').removeClass('hidden');
-      $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
-      $(".filter").not('.'+value).hide('3000');
-      $('.filter').filter('.'+value).show('3000');
-    }
-  });
 
-  if ($(".filter-button").removeClass("active")) {
-    $(this).removeClass("active");
-  }
-  $(this).addClass("active");
-});
-</script>
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+      document.getElementById("opn-btn").style.display = "block";
+    }
+  </script>
+
+
 
 </body>
 
