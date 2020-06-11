@@ -249,3 +249,76 @@
   color: whitesmoke;
   text-decoration: none;
 }
+.about-section {
+  background-color: #111111;
+}
+
+.About {
+  color: whitesmoke;
+  background-color: #111111;
+}
+
+.elevator-speech {
+  color: white;
+}
+
+.elevator-speech a{
+  color: #e99023;
+}
+
+.elevator-speech a:hover{
+  color: #e99023;
+  text-decoration: underline;
+}
+
+.elevator-speech strong{
+  color: #e99023;
+}
+
+.elevator-speech button{
+  color: white;
+  background-color: #e99023;
+}
+
+.elevator-speech button:hover{
+  color: white;
+  background-color: #a7681b;
+}
+
+
+
+.resume-box{
+  margin: 0;
+  padding: 0;
+}
+
+.resume-box span {
+  color: #fff;
+  font-size: 12px;
+  padding: 1px 10px;
+  display: inline-block;
+  margin-bottom: 12px;
+  border-radius: 20px;
+  font-weight: 600;
+  background-color: #252525;
+  opacity: .8;
+}
+
+.resume-box li {
+  list-style: none;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  line-height: 40px;
+  text-align: center;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: #e99023;
+  color: white;
+}
+
